@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel = 'stylesheet' href = 'css/home.css' type='css/text' />
+    <link rel="stylesheet" href="css/home.css">
+
 </head>
 <body>
     <input id="slider" />
@@ -14,8 +15,28 @@
         <h2 class='title'>PASSWORD GEN</h2>
         <div class='copy'>Copy password</div>
         <input class='slider' type='range' min='6' max='32' value='8'>
+
+        <div class='options' >
+            <div>
+                <input type='checkbox' id='lowercase' checked/>
+                <label for='lowercase'>use lowercase</label>
+            </div>
+            <div>
+                <input type='checkbox' id='uppercase' checked/>
+                <label for='uppercase'>use uppercase</label>
+            </div>
+            <div>
+                <input type='checkbox' id='numbers' checked/>
+                <label for='numbers'>use numbers</label>
+            </div>
+            <div>
+                <input type='checkbox' id='symbols' checked/>
+                <label for='symbols'>use symbols</label>
+            </div>
+        </div>
+
+
     </div>
-    <div class = 'title' >PASSWORD GEN</div>
    <script type="text/javascript" src = 'js/home.js'></script> 
 </body>
 </html>

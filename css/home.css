@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: magenta;
+    border: 2 solid black;
+}
